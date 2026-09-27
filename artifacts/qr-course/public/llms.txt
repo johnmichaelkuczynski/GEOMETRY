@@ -1,0 +1,12 @@
+# Geometry — A Four-Week Course
+
+> A free, self-paced Geometry course with 29 short lectures, unlimited practice, and an interactive tutor. No account needed.
+
+## Course weeks
+
+- [Week 1 — Foundations, reasoning, and proof](/weeks/1)
+- [Week 2 — Triangles, congruence, and quadrilaterals](/weeks/2)
+- [Week 3 — Similarity, right triangles, and circles](/weeks/3)
+- [Week 4 — Area, volume, and beyond Euclid](/weeks/4)
+
+The course also includes two homeworks, an 8-question midterm, and a 10-question final. Individual lessons are available at `/lectures/{id}`.

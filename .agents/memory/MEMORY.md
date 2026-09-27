@@ -1,0 +1,5 @@
+- [Course replacement operations](course-replacement-operations.md) — curriculum changes must cover fallback and SEO paths too; a fresh external database needs its schema before seeding.
+- [Practice-assignment integrity](practice-assignment-integrity.md) — three invariants: deterministic (not LLM-trusted) no-overlap generation, every attempt query scoped by userId, submit is idempotent (no re-grade/re-log).
+- [Anonymous access model](guest-access-model.md) — no accounts or feature limits; anonymous cookie IDs preserve progress and visitor analytics, and every progress query must remain userId-scoped.
+- [MathKeyboard cursor editing](math-keyboard-cursor-editing.md) — keys steal textarea focus, so read caret from textarea selection directly; never gate cursor logic on document.activeElement (MathChatInput is the correct pattern).
+- [Narrated video export](narrated-video-export.md) — measure the video duration and limit padded narration explicitly; infinite audio padding with shortest-output can fail at completion.
